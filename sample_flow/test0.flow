@@ -1,0 +1,3 @@
+{"table_id":0,"match":{"in_port":1},"actions":["OUTPUT:2","OUTPUT:3"]}
+{"table_id":0,"match":{"in_port":2},"actions":["OUTPUT:1","OUTPUT:3"]}
+{"table_id":0,"match":{"in_port":3},"actions":["OUTPUT:1","OUTPUT:2"]}

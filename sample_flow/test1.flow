@@ -1,0 +1,2 @@
+{"table_id":0,"priority":200,"match":{"in_port":1,"eth_type":2048,"ip_proto":1},"actions":[{"type":"SET_FIELD","field":"ipv4_dst","value":"192.168.0.2"},{"type":"SET_FIELD","field":"eth_dst","value":"00:00:00:02:02:02"},"OUTPUT:2",{"type":"SET_FIELD","field":"ipv4_dst","value":"192.168.0.3"},{"type":"SET_FIELD","field":"eth_dst","value":"00:00:00:03:03:03"},"OUTPUT:3"]}
+
